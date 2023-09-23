@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+:root  {
+    --primary-color: #343A40 ;
+    --secondry-color: #66707A;
+    --accent1-color: #81A9BB;
+    --accent2-color: hsl(91, 33%, 65%) ;
+
+    --heading-font: '        ', sarif;
+    --paragraph-font:  '      ',  sarif;
+
+    --nav-background-color:  #81A9BB ;
+    --nav-link-color:      #445C68    ;
+    --nav-hover-like-color:  #ADB5BD  ;
+    --nav-hover-background-color:#A2D2FF ;
+}
+body {
+    f___________: var(--paragraph-font);
+    m___________: _______;
+    p___________: _______;
+  }
+  h1, h2, h3, h4, h5, h6 {
+        font-family:  var(--heading-font) ;
+        color: var(--primary-color) ;
+    }
+    header {
+        padding: 20px;
+        background-color: var(--accent1-color);
+    }
+    p {
+        padding: 25px;
+        padding: 25px;
+    }
+    nav  {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+    nav a {
+        display:  block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+    nav a:link, nav a:visited {
+        color:var(--nav-link-color);
+    }
+    nav a:hover  {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
+
