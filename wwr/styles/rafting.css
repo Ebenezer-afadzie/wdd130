@@ -1,0 +1,46 @@
+.logo img {
+    display: block;
+    width: 100;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    color:rgb(150, 252, 213);
+    font-size: 2rem;
+    font-family: acme, Arial,  sans-serif;
+    
+}
+article {
+    position: absolute;
+    img  {
+        float: right; 
+
+}
+h1 {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid;
+    max-width: 100px;
+    color: rgb(33, 132, 82);
+}
+.logo img  {
+    margin: oo.25rem 01rem;
+    width: 64px;
+    height: auto;
+}
+h1 {
+}
+nav  {
+    text-align: right;
+}
+.navigation  {
+    display: flex;
+    list-style:none;
+}
+.navigation a: hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
