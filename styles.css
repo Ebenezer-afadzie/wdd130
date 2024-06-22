@@ -1,0 +1,28 @@
+
+main {
+    max-width: 950px;
+}
+aside {
+    width: 100rem;
+    margin: 1rem;
+    border:1px solid rgba(rgb(224, 165, 165), green, blue, alpha) ;
+    padding: 1rem ;
+    background-color: rgb(147, 176, 197) ;
+    color: rgb(35, 35, 4);
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+main img {
+    width:150px ;
+    height: auto;
+}
+p {padding: 0;
+
+}
+footer {
+    margin-top: 15px;
+    border-top:1px solid #33465d ;
+    text-align: center;
+}
