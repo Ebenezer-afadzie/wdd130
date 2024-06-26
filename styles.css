@@ -1,22 +1,38 @@
 
 main {
-    max-width: 950px;
+    max-width: 850px;
 }
+
+header {
+    color: white;
+    padding: 10px;
+    display: block;
+ }
+ h1{
+    color: blue;
+ }
 aside {
     width: 100rem;
     margin: 1rem;
-    border:1px solid rgba(rgb(224, 165, 165), green, blue, alpha) ;
+    border:1px solid rgba(rgb(224, 165, 165), green, rgb(101, 101, 215), alpha) ;
     padding: 1rem ;
     background-color: rgb(147, 176, 197) ;
     color: rgb(35, 35, 4);
+
 }
 aside img{
     width: 200px;
     height: auto;
 }
+
 main img {
     width:150px ;
     height: auto;
+    margin: 0 0 1rem 1rem;
+    box-shadow: 0 0 30px gray;
+    /* you most likely will have other declaration here */
+    float: right;
+
 }
 p {padding: 0;
 
@@ -25,4 +41,30 @@ footer {
     margin-top: 15px;
     border-top:1px solid #33465d ;
     text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* Class Selector */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(26, 52, 71);
+    padding:1 rem ;
+    background-color:#71839c ;
+    color:#132a30 ;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+aside h2 {
+    position: relative;
+    top: 50px;
+    left: 6px;
 }
