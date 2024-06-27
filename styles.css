@@ -3,7 +3,7 @@ main {
     max-width: 850px;
 }
 
-header {
+nav {
     color: white;
     padding: 10px;
     display: block;
@@ -30,7 +30,6 @@ main img {
     height: auto;
     margin: 0 0 1rem 1rem;
     box-shadow: 0 0 30px gray;
-    /* you most likely will have other declaration here */
     float: right;
 
 }
