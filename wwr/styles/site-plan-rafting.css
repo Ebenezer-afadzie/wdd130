@@ -19,11 +19,6 @@ body {
     --nav-hover-background-color: rgb(223, 224, 229);
 }
    
-body {
-        f_______: var(--paragraph-font);
-        m_______: _________;
-        p_______: _________;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--headind-font);
     color: var(--primary-color);
