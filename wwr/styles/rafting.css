@@ -1,0 +1,62 @@
+@import url("https//fonts.google.com/specimen/Roboto");
+:root  {
+    --primary-color: rgb(25, 29, 89)  ;
+    --secondary-color: rgb(182, 173, 173) ;
+    --accent1-color: gray ;
+    --acccent2-color:  rgb(155, 155, 244);
+
+    --headind-font: '_______', serif;
+    --paragraph-font: '_______', serif;
+
+    --nav-backgroud-color: rgb(125, 172, 191);
+    --nav-link-color: rgb(29, 40, 51);
+    --nav-hover-link-color:rgb(25, 45, 71) ;
+    --nav-hover-background-color: rgb(223, 224, 229);
+}
+
+main{
+    padding: 20pxS;
+}
+header{
+    font-family: var(--headind-font);
+    color: var(--primary-color);
+}
+h1 {
+    font-family: var(--headind-font);
+    color: ;
+}
+.hero {
+    position: absolute;
+    text-align: center;
+
+}
+.hero h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+    color: white;
+    background-color:blue ;
+    padding: ;}
+
+.hero img {
+    display:block;
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+.hero article {
+     position: absolute;
+     bottom: 10%;
+     left:60% ;
+     padding: ;
+}
+.hero article img {
+    float: right;
+    margin-left:10px ;
+}
+
+p {
+ color: rgb(190, 104, 104);
+}
