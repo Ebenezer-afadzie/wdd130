@@ -23,34 +23,37 @@ header{
 }
 h1 {
     font-family: var(--headind-font);
-    color: ;
+    color: white;
+    position: absolute;
 }
 .hero {
-    position: absolute;
+    position: relative;
     text-align: center;
 
 }
 .hero h1{
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 25%;
+    
 
     color: white;
     background-color:blue ;
-    padding: ;}
+    padding: 1px; ;
+}
 
 .hero img {
     display:block;
-    width:100%;
+    width: 100%;
     height: auto;
     position: relative;
 }
 
 .hero article {
      position: absolute;
-     bottom: 10%;
+     bottom: 20%;
      left:60% ;
-     padding: ;
+     padding: 1px; 
 }
 .hero article img {
     float: right;
@@ -58,5 +61,5 @@ h1 {
 }
 
 p {
- color: rgb(190, 104, 104);
+ color: rgb(20, 19, 19);
 }

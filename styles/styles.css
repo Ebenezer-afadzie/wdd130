@@ -1,6 +1,8 @@
 
 main {
     max-width: 850px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 nav {
@@ -66,4 +68,45 @@ aside h2 {
     position: relative;
     top: 50px;
     left: 6px;
+}
+header, .grid, footer {
+    grid-template-columns: auto;
+    grid-column: span;
+    grid-row: inherit;
+    max-width: 840px;
+    margin: 0 auto;
+}
+nav {
+    background-color: rgb(78, 78, 246);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(213, 232, 245);
+
+}
+/* header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+} */
+.grid {
+    display:grid;
+    align-items: center;   
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
