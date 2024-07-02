@@ -18,6 +18,11 @@ body {
     --nav-hover-link-color:rgb(25, 45, 71) ;
     --nav-hover-background-color: rgb(223, 224, 229);
 }
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
    
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--headind-font);
