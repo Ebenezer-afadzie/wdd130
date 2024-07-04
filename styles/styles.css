@@ -73,7 +73,7 @@ aside h2 {
 header, .grid, footer {
     grid-template-columns: auto;
     grid-column: span;
-    grid-row: inherit;
+    grid-row: initial ;
     max-width: 840px;
     margin: 0 auto;
 }
@@ -93,12 +93,12 @@ nav a {
     color: rgb(213, 232, 245);
 
 }
-/* header, .grid, footer {
+header,  footer {
     max-width: 840px;
     margin: 0 auto;
-} */
+}
 .grid {
-    display:grid;
+    display: grid;
     align-items: center;   
 }
 main {
