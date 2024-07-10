@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+        <title>Quiz Forms</title>
+        <meta name="description" content="Basic question about HTML and CSS">
+        <meta name="author" content="Ebenezer Afadzie">
+        <link rel="stylesheet"  href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>BASIC HTML AND CSS QUIZES</h1>
+        </header>
+        <main>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="q1">1. State one advantage of using CSS?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="form-group">
+                    <label for="q2">2. What are the 4 basic HTML structural tags?</label>
+                    <textarea type="text" id="q2" name="q2"  rows="4" cols="50" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q3">3.  What does HTML stand for?</label>
+                    <select id="q3" name="q3" required>
+                        <option value="" selected disabled>Choose One ..</option>
+                        <option value="html">Hypertext Markup Language</option>
+                        <option value="html">Hypertext Makeup Language</option>
+                        <option value="html">Hypertest Markup Language</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="q1">4. Which year was HTML created by Berners-lee?</label>
+                    <input type="number" id="q4" name="q4" required>
+                </div>
+                <button type="submit">Submit Quiz</button>
+
+            </form> 
+        </main>
+    </body>
+</html>

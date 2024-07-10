@@ -44,20 +44,23 @@ h1 {
 
 .hero img {
     display:block;
-    width: 100%;
+    width: 30px;
     height: auto;
     position: relative;
 }
 
 .hero article {
      position: absolute;
-     bottom: 20%;
-     left:60% ;
-     padding: 1px; 
+     bottom: 30%;
+     left: 85% ;
+     padding: 1px;
+     background-color: aqua; 
+     text-align: center;
+
 }
 .hero article img {
     float: right;
-    margin-left:10px ;
+    margin-left:1px ;
 }
 
 p {
@@ -67,7 +70,7 @@ header {
 	margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
+	align-items: left;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
 }
@@ -83,28 +86,4 @@ h1 {
 	font-family: Acme, Arial, sans-serif;
 }
 
-nav {
-	text-align: right;
-}
-
-.navigation {
-	display: flex;
-	list-style: none;
-}
-
-.navigation li {
-	flex: 1 1 100%;
-}
-
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
-}
-
-.navigation a:hover {
-	color: tomato;
-	font-weight: 700;
-	text-decoration: underline;
-}
+  
