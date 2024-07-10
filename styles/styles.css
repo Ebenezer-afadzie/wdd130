@@ -12,6 +12,7 @@ nav {
  }
  h1{
     color: blue;
+    text-decoration: underline;
  }
 aside {
     width: 100rem;
