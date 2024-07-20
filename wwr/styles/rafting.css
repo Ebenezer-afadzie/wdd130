@@ -186,27 +186,32 @@ nav ul li:hover {
     display: block;
     height: 500px;
 }
+.hero article img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
 
- .h1 {
+ .hero h1 {
     position: absolute;
-    top: 150%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(235, 205, 205, 0.5);
+    background-color: rgba(5, 154, 253, 0.5);
     padding: 10px;
-    border-radius: 5px;
+
 }
 
 .hero article {
     position: absolute;
-    bottom: 1px; 
+    top: 150px; 
     right: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 1px;
     width: 30%;
-    height: -5px;
+    height: 280px;
 }
 
 .contact {
@@ -279,3 +284,69 @@ nav ul li:hover {
     color: white;
 }
 
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--accent-color);
+    color: rgb(63, 63, 245);
+    margin-bottom: 20px;
+}
+
+
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+}
+
+.newsletter label {
+    display: block;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(177, 184, 189);
+    color: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .newsletter button:hover {
+    background-color: var(--secondary-color);
+    color: rgb(46, 181, 239);
+} */
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid article {
+    background-color: rgb(204, 224, 231);
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
